@@ -19,7 +19,7 @@ def wybierzZnak():
         print ('Wybierz 0 lub X')
         znak = input().upper()
 
-        if lznak =='X':
+        if znak =='X':
             return['X','0']
         else:
             return['0','X']
