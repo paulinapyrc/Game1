@@ -31,6 +31,10 @@ def ktoPierwszy():
     #Funkcja, która drukuje True jeśli gracz chce grać jeszcze raz. Jeżeli nie chce - false
 def ZagrajJeszczeRaz():
     print('Czy chcesz zagrać jeszcze raz? (Tak lub Nie)')
-    return input()
+    return input().lower().startswith('y')
 
+def zrobRuch(board, znak, ruch):
+    board[ruch] = znak
+    
+    
     
