@@ -36,6 +36,9 @@ def ZagrajJeszczeRaz():
 def zrobRuch(board, znak, ruch):
     board[ruch] = znak
 
+    #Jeśli gracz wygra - True, jeśli przegra - False
+def Wygral(board, letter):
+
     
     
     
