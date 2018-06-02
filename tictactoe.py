@@ -35,6 +35,7 @@ def ZagrajJeszczeRaz():
 
 def zrobRuch(board, znak, ruch):
     board[ruch] = znak
+
     
     
     
