@@ -37,8 +37,31 @@ def zrobRuch(board, znak, ruch):
     board[ruch] = znak
 
     #Jeśli gracz wygra - True, jeśli przegra - False
-def Wygral(board, letter):
+def Wygral(board, znak):
+return ((board[7] == znak and board[8] == znak and board[9] == znak)
+(board[4] == znak and board[5] == znak and board[6] == znak) or    
+(board[1] == znak and board[2] == znak and board[3] == znak) or    
+(board[7] == znak and board[4] == znak and board[1] == znak) or     
+(board[8] == znak and board[5] == znak and board[2] == znak) or    
+(board[9] == znak and board[6] == znak and board[3] == znak) or    
+(board[7] == znak and board[5] == znak and board[3] == znak) or 
+(board[9] == znak and board[5] == znak and board[1] == znak) 
+ def KopiaPlanszy(board):
+ 
+    dupeBoard = []
 
+    for i in board:
+        dupeBoard.append(i)
+
+    return dupeBoard
+ def isSpaceFree(board, ruch):
+    return board[move] == ' '
+        
+def RuchGracza(board):
     
-    
-    
+    ruch = ' '
+    while ruch not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(ruch)):
+        print('What is your next move? (1-9)')
+        ruch = input()
+    return int(ruch)
+        
