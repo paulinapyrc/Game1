@@ -2,7 +2,7 @@ import random
 plansza = [1,2,3,
            4,5,6,
            7,8,9]
-def NarysujPole:
+def NarysujPole():
     print ('  |  |')
     print (' '+board[1]+ ' | ' + board[2] + ' | ' +board[3])
     print('   |   |')
@@ -16,7 +16,7 @@ def NarysujPole:
     print('   |   |')      
         
 while True:
-           input = raw_input("Wybierz pole: ")
+           input = input("Wybierz pole: ")
            input = int(input)
            
            if plansza[input] != 'X' and plansza[input] !='O':
