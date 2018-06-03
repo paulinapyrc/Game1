@@ -21,6 +21,7 @@ while True:
            
            if plansza[input] != 'X' and plansza[input] !='O':
                       plansza[input] = 'X'
+                      random.seed() # Randomowe liczby
            else:
                       print "To miejsce jest już zajęte"
      
