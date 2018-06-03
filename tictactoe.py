@@ -1,4 +1,7 @@
 import random #zeby komputer mogl zajac przypadkowe pole
+pole = [7,8,9,
+        4,5,6,
+        1,2,3]
 #rysowanie pola gry
 def narysujPole(board):
     print ('  |  |')
