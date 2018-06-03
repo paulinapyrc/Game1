@@ -15,7 +15,16 @@ def NarysujPole:
     print (' '+board[7]+ ' | ' + board[8] + ' | ' +board[9])
     print('   |   |')      
         
-        
+while True:
+           input = raw_input("Wybierz pole: ")
+           input = int(input)
+           
+           if plansza[input] != 'X' and plansza[input] !='O':
+                      plansza[input] = 'X'
+           else:
+                      print "To miejsce jest już zajęte"
+     
+         
 
         
         
