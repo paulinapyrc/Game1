@@ -21,15 +21,15 @@ while True:
            
            if board[input] != 'X' and board[input] !='O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
                board[input] = 'X'
-               finding = True
                
-               while finding:
+               
+               while True:
                       random.seed() # Randomowe liczby
                       opponent = random.randint(1,9)
                       
                       if board(opponent) != "O" and board (opponent) !="X":
                                  board(opponent) = "O"
-                                 finding = False
+                                 break;
            else:
                   print ("To miejsce jest już zajęte. Wybierz inne")
                       
