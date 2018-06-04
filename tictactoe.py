@@ -18,7 +18,7 @@ def NarysujPole():
 def Sprawdz(char, spot1, spot2, spot3):
     if board[spot1] == char and board[spot2] == char and board[spot3] == char:
         return True 
-def SprawdzWszystkie(char):
+def SprawdzWszystkie(char):                       #Wszystkie możliwe opcje wygranej 
     if Sprawdz(char, 0, 1, 2):
         True
     if Sprawdz(char, 1, 4, 7):
