@@ -20,7 +20,7 @@ while True:
            input = int(input)
            
            if board[input] != 'X' and board[input] !='O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
-                      board[input] = 'X'
+               board[input] = 'X'
                       random.seed() # Randomowe liczby
                       opponent = random.randint(0,8)
                       
