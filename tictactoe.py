@@ -27,8 +27,8 @@ while True:
                       random.seed() # Randomowe liczby
                       opponent = random.randint(1,9)
                       
-                      if board(opponent) != "O" and board (opponent) !="X":
-                                 board(opponent) = "O"
+                      if board[opponent] != "O" and board [opponent] !="X":
+                                 board[opponent] = "O"
                                  break;
            else:
                   print ("To miejsce jest już zajęte. Wybierz inne")
