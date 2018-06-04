@@ -17,7 +17,24 @@ def NarysujPole():
 
 def Sprawdz(char, spot1, spot2, spot3):
     if board[spot1] == char and board[spot2] == char and board[spot3] == char:
-        return True        
+        return True 
+def SprawdzWszystkie(char):
+    if Sprawdz(char, 0, 1, 2):
+        True
+    if Sprawdz(char, 1, 4, 7):
+        True
+    if Sprawdz(char, 2, 5, 8):
+        True
+    if Sprawdz(char, 6, 7, 8):
+        True
+    if Sprawdz(char, 3, 4, 5):
+        True
+    if Sprawdz(char, 1, 2, 3):
+        True
+    if Sprawdz(char, 2, 4, 6):
+        True
+    if Sprawdz(char, 0, 4, 8):
+        True
 while True:
            input = input("Wybierz pole: ")
            input = int(input)
