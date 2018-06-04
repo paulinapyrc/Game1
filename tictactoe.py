@@ -14,7 +14,10 @@ def NarysujPole():
     print('   |   |')
     print (' '+board[7]+ ' | ' + board[8] + ' | ' +board[9])
     print('   |   |')      
-        
+
+def Sprawdz(char, spot1, spot2, spot3):
+    if board[spot1] == char and board[spot2] == char and board[spot3] == char:
+        return True        
 while True:
            input = input("Wybierz pole: ")
            input = int(input)
