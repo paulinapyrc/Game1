@@ -60,7 +60,7 @@ while True:
                            break;
            else:
                   print ("To miejsce jest już zajęte. Wybierz inne")
- NarysujPole()                   
+                  def NarysujPole()                   
      main()
          
 
