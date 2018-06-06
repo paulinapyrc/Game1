@@ -9,3 +9,4 @@ No to gracz sam wybiera, najmniej istotne xd Jak się dzielimy resztą pracy?
 Też będziemy miały tak, że jak gracz wygra to w shelu bedzie True? 
 Spróbuje pokazac o co mi chodzi.
 Zmieniłam "Sprawdz" na "SprawdzWszystkie" przy sprawdzaniu kto wygral, tak jak bylo wczesniej, nie mieszajcie tego xd 
+I cały czas nie działa przy sprawdzaniu kółka tam za dwukropkiem, nie wiem co z tym zrobić, już próbowałam tabulacje i nic
