@@ -42,7 +42,7 @@ while True:
            if board[input] != 'X' and board[input] !='O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
                board[input] = 'X'
 
-               if Sprawdz('X') == True:
+               if SprawdzWszystkie('X') == True:
                    print('-----X Wygrał!-----')
                    break;
                
@@ -53,7 +53,7 @@ while True:
                       if board[opponent] != "O" and board [opponent] !="X":
                           board[opponent] = "O"
 
-                         if Sprawdz('O') == True:
+                         if SprawdzWszystkie('O') == True:
                            print('-----O Wygrał!-----')
                            break;
 
