@@ -1,7 +1,7 @@
 import random
 board = [0,1,2,
-           3,4,5,
-           6,7,8]
+         3,4,5,
+         6,7,8]
 def NarysujPole():
     print (board[0], '|', board[1], '|', board[2])
     print ('---------')
@@ -34,7 +34,7 @@ while True:
            input = input("Wybierz pole: ")
            input = int(input)
            
-           if board[input] != 'X' and board[input] != 'O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
+           if board[input] != 'X' and board[input] != 'O':  
                board[input] = 'X'
 
                if SprawdzWszystkie('X') == True:
