@@ -34,7 +34,7 @@ while True:
            input = input("Wybierz pole: ")
            input = int(input)
            
-           if board[input] != 'X' and board[input] !='O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
+           if board[input] != 'X' and board[input] != 'O':  #POZMIENIAŁAM 'PLANSZA' NA 'BOARD', BO WYŻEJ W KOLUMNACH SĄ BOARDY I TRZEBA SIĘ TRZYMAĆ TEJ NAZWY. I GUESS
                board[input] = 'X'
 
                if SprawdzWszystkie('X') == True:
@@ -42,21 +42,21 @@ while True:
                    break;
                
                while True:
-                      random.seed() # Randomowe liczby
-                      opponent = random.randint(0,8)
+                   random.seed() # Randomowe liczby
+                   opponent = random.randint(0,8)
                       
-                      if board[opponent] != "O" and board [opponent] !="X":
-                          board[opponent] = "O"
+                   if board[opponent] != "O" and board [opponent] !="X":
+                       board[opponent] = "O"
 
-                         if SprawdzWszystkie('O') == True:
-                           print('-----O Wygrał!-----')
-                           break;
+                       if SprawdzWszystkie('O') == True:
+                          print('-----O Wygrał!-----')
+                          break;
 
-                           break;
+                   break;
            else:
-                  print ("To miejsce jest już zajęte. Wybierz inne")
-                  def NarysujPole()                   
-     main()
+               print ("To miejsce jest już zajęte. Wybierz inne")
+           NarysujPole()                         
+     
          
 
         
