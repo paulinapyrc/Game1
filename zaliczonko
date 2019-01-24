@@ -12,3 +12,4 @@
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>*/
             //jest to formularz z login.php
+class="btn btn-primary" // 136 welcome.php
