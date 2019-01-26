@@ -37,3 +37,18 @@ FORMULARZ PROSTO Z ZAJĘĆ:
 			
 		
 		</form> 
+		UWAGA!TO JEST BARDZO WAŻNE.UWAGA!
+		IF-Y, OD ROZMIARU I ROZSZERZENIA ZDJĘCIA
+		//tutaj wrzucic dwa ify 
+    //wielkosc pliku
+if ($_FILES["fileToUpload"]["size"] > 2000000) {
+    echo "Plik jest za duży.";
+$uploadOk = 0;}
+//tylko jpg i png
+}
+// Format
+if( $imageFileType != "png"  ) {
+    echo "Plik musi mieć rozszerzenie .png.";
+    $uploadOk = 0;
+}
+
