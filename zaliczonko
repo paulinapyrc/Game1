@@ -107,3 +107,21 @@ welcome.php
         
         <a href="list.php" class="btn btn-danger"> Możesz zobaczyć swoje wyniki tutaj</a>
 	------------------------------------------------ 118 linijka
+	
+	dbConfig --> całość
+	    <?php
+// Database configuration
+$dbHost     = "localhost";
+$dbUsername = "root";
+$dbPassword = "vertrigo";
+$dbName     = "zadanietrzecie";
+
+// Create database connection
+$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+
+// Check connection
+if ($db->connect_error) {
+    die("Connection failed: " . $db->connect_error);
+}
+?>
+----------------------------
