@@ -72,3 +72,38 @@ LINIJKA 87: else {
             border-color:#4B0082
          }
 	 ----------------
+welcome.php 
+		
+           <form method="POST" action="welcome.php"> 
+		
+<form action="  method="post">
+            <div class="form-group ">
+                <h4>Nazwisko</h4>
+                <input type="text" name="nazwisko" >
+            </div>    
+            <div class="form-group  ">
+                <h4>Imię</h4>
+                <input type="text" name="imie" >               
+ <span class="help-block"></span>
+                <span class="help-block"></span>
+            </div>
+     <div class="form-group  ">
+                <h4>Miasto\wieś</h4>
+                <input type="text" name="miasto" >
+                <span class="help-block"></span>
+            </div>    
+            <div class="form-group ">
+                <h4>Telefon<h4>
+                <input type="number" name="telefon" >
+                <span class="help-block"></span>
+            </div>
+   <div class="form-group">
+                <input type="submit"  class="btn btn-danger" value="Zapisz">
+            </div>
+    
+    <p>
+        <a href="reset-password.php" class="btn btn-warning">Zresetuj hasło</a>
+        <a href="logout.php" class="btn btn-danger">Wyloguj się. </a>
+        
+        <a href="list.php" class="btn btn-danger"> Możesz zobaczyć swoje wyniki tutaj</a>
+	------------------------------------------------ 118 linijka
