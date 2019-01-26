@@ -56,3 +56,19 @@ LINIJKA 87: else {
         $uploadOk = 0;
     } 
     // TU WRZUCIĆ IF-Y
+    
+    51 linijka w up_1.php -->
+    .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#4B0082;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#4B0082
+         }
+	 ----------------
