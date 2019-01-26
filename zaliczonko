@@ -51,4 +51,8 @@ if( $imageFileType != "png"  ) {
     echo "Plik musi mieć rozszerzenie .png.";
     $uploadOk = 0;
 }
-
+LINIJKA 87: else {
+        echo "Plik nie jest grafika.";
+        $uploadOk = 0;
+    } 
+    // TU WRZUCIĆ IF-Y
