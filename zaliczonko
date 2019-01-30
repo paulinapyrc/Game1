@@ -139,3 +139,11 @@ if($query->num_rows > 0){
     <p>Nie odnaleziono zdjęcia</p>
 <?php } ?>
     -----------------
+
+
+register.php archiwum linijka 103
+<style type="text/css">
+        body{ font: 14px sans-serif; }
+        .wrapper{ width: 350px; padding: 20px; }
+    </style>
+    ------------------
